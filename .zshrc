@@ -9,16 +9,16 @@ fi
 #source ~/.powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-source ~/.zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme
-source ~/.zsh/plugins/powerlevel10k/p10k_conf.zsh
-POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+source ~/.config/zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.config/zsh/.p10k.zsh
+# POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 
 # Plugins
-source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.config/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Custom functions
-source ~/.zsh/custom-functions.zsh
+source ~/.config/zsh/custom-functions.zsh
 
 . /usr/local/opt/asdf/libexec/asdf.sh
